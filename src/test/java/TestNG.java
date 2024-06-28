@@ -19,6 +19,7 @@ public class TestNG {
          driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("https://ashraaf7.github.io/AA-Practice-Test-Automation/index.html");
+
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
     }
